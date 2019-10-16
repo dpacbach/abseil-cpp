@@ -53,6 +53,11 @@ list(APPEND ABSL_CLANG_CL_FLAGS
     "-Wobjc-literal-conversion"
     "-Wno-sign-conversion"
     "-Wstring-conversion"
+    "-Wno-unused-member-function"
+    "-Wno-shadow-uncaptured-local"
+    "-Wno-unused-template"
+    "-Wno-tautological-type-limit-compare"
+    "-Wno-shadow"
     "/DNOMINMAX"
     "/DWIN32_LEAN_AND_MEAN"
     "/D_CRT_SECURE_NO_WARNINGS"
@@ -161,6 +166,11 @@ list(APPEND ABSL_LLVM_FLAGS
     "-Wobjc-literal-conversion"
     "-Wno-sign-conversion"
     "-Wstring-conversion"
+    "-Wno-unused-member-function"
+    "-Wno-shadow-uncaptured-local"
+    "-Wno-unused-template"
+    "-Wno-tautological-type-limit-compare"
+    "-Wno-shadow"
 )
 
 list(APPEND ABSL_LLVM_TEST_FLAGS

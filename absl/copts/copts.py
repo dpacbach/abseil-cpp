@@ -86,6 +86,11 @@ LLVM_DISABLE_WARNINGS_FLAGS = [
     "-Wobjc-literal-conversion",
     "-Wno-sign-conversion",
     "-Wstring-conversion",
+    "-Wno-unused-member-function",
+    "-Wno-shadow-uncaptured-local",
+    "-Wno-unused-template",
+    "-Wno-tautological-type-limit-compare",
+    "-Wno-shadow",
 ]
 
 LLVM_TEST_DISABLE_WARNINGS_FLAGS = [
